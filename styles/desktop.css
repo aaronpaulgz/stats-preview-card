@@ -1,0 +1,36 @@
+.main {
+  min-width: 920px;
+  width: 1200px;
+  max-width: 1400px;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.card__img-container {
+  width: 50%;
+  height: 440px;
+  border-radius: 0 12px 12px 0;
+}
+
+.card__description-container {
+  width: 50%;
+  padding: 60px;
+  border-radius: 12px 0 0 12px;
+  text-align: left;
+}
+
+.card__description-text h1 {
+  max-width: 420px;
+  font-size: 2.2rem;
+}
+
+.card__description-text p {
+  margin: 32px 0 0 0;
+  max-width: 420px;
+}
+
+.card__description-data {
+  margin-top: 40px;
+  max-width: 360px;
+  justify-content: space-between;
+}

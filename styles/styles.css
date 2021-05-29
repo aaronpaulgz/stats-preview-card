@@ -45,10 +45,6 @@ body {
   border-radius: 12px 12px 0 0;
 }
 
-.card__img-container::after {
-  background-color: var(--soft-violet);
-}
-
 .card__description-container {
   padding: 24px;
   text-align: center;
@@ -88,6 +84,7 @@ body {
 .item-bold {
   font-size: 1.6rem;
   font-weight: 700;
+  color: var(--white);
 }
 
 .item-tag {
